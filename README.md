@@ -2,7 +2,8 @@
 
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
 
-Download Additional Files :
+ clone darknet repo:!git clone https://github.com/AlexeyAB/darknet
+
 • This repository consists of files required to deploy a Object Detection on Webcam
 
 • Please do ⭐ the repository, if it helped you in anyway.
@@ -23,7 +24,7 @@ Download Additional Files :
   7. get image ratios to convert bounding boxes to proper size.
   8. run model on darknet style image to get detections
   9. run test on person.jpg image that comes with repository.
-  10.
+ 
 ## Installation
 
 To install the libraries used in this project. Follow the 
