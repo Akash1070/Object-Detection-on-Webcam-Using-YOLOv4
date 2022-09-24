@@ -14,15 +14,34 @@ Download Additional Files :
 
 
 ## Deployment
-
-  
+  1. import dependent libraries.
+  2. clone darknet repo:!git clone https://github.com/AlexeyAB/darknet
+  3. change makefile to have GPU, OPENCV and LIBSO enabled.
+  4. make darknet (builds darknet so that you can then use the darknet.py file and have its dependencies)
+  5. get the scaled yolov4 weights file that is pre-trained to detect 80 classes (objects) from shared google drive.
+  6. import darknet functions to perform object detections
+  7. get image ratios to convert bounding boxes to proper size.
+  8. run model on darknet style image to get detections
+  9. run test on person.jpg image that comes with repository.
+  10.
 ## Installation
 
 To install the libraries used in this project. Follow the 
 below steps:
 
 ```bash
-
+from IPython.display import display, Javascript, Image
+from google.colab.output import eval_js
+from google.colab.patches import cv2_imshow
+from base64 import b64decode, b64encode
+import cv2
+import numpy as np
+import PIL
+import io
+import html
+import time
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 ```
     
