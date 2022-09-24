@@ -2,7 +2,7 @@
 
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
 
- clone darknet repo:!git clone https://github.com/AlexeyAB/darknet
+ clone darknet repo:  !git clone https://github.com/AlexeyAB/darknet
 
 • This repository consists of files required to deploy a Object Detection on Webcam
 
